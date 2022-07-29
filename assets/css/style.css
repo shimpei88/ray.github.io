@@ -1,14 +1,69 @@
-body {
-  font-size: 62.5%;
-}
 body, html {
   padding: 0;
   margin: 0;
-  font-family: system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,HiraginoCustom,Hiragino Kaku Gothic ProN,YuGothic,Yu Gothic,Meiryo,sans-serif;
+  height: 100vh;
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+body {
+  font-size: 62.5%;
+  color: black;
 }
 
 h1 {
   text-align: center;
-  font-size: 3rem;
-  margin-bottom: 50px;
+  font-size: 6rem;
+  margin-bottom: 80px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 12px;
+  max-width: 920px;
+  margin: auto;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 14px;
+  white-space: break-spaces;
+}
+
+a:hover {
+  opacity: .7;
+}
+
+a:before {
+  content: "";
+  padding-bottom: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container {
+  margin: 40px 12px;
 }
