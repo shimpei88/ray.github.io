@@ -1,0 +1,14 @@
+body {
+  font-size: 62.5%;
+}
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,HiraginoCustom,Hiragino Kaku Gothic ProN,YuGothic,Yu Gothic,Meiryo,sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
