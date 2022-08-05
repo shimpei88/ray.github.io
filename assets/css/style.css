@@ -21,7 +21,7 @@ canvas {
 
 h1 {
   text-align: center;
-  font-size: 6rem;
+  font-size: 4rem;
   margin-bottom: 80px;
 }
 
@@ -68,5 +68,5 @@ a:before {
 }
 
 .container {
-  margin: 40px 12px;
+  margin: 32px 12px;
 }
